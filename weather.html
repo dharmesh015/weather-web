@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="serach_form" action="">
+            <input type="text" placeholder="Enter city name" class="search_inpute">
+        </form>
+        <div class="city-info">
+            <h1 class="city">city</h1>
+            <p class="city-date">date</p>
+        </div>
+        <div class="temperature-div">
+            <div class="temp-info">
+
+                <span class="temp-detail">weather</span>
+            </div>
+            <div style="display: flex;">
+                <div class="temp-data">0</div>
+                <h1 style="margin-top: 15px;">°</h1>
+            </div>
+
+        </div>
+
+        <div class="another-info">
+
+            <div class="details">
+                <img src="wind.png" alt="" style="width: 40px;">
+                <div class="wind-data">
+                    <h3 class="wind-speed">0</h3>
+                    <p class="wind-lable">
+                        wind
+                    </p>
+                </div>
+            </div>
+            <div class="details">
+
+                <img src="humidity.png" alt="" style="width: 40px; font-weight: 100px;">
+                <div class="humidity-data">
+                    <h3 class="humidity-per">0</h3>
+                    <p class="humidity-lable">
+                        humidity
+                    </p>
+                </div>
+            </div>
+            <div class="details">
+
+                <img src="visibility.png" alt="" style="width: 40px;">
+                <div class="visibility-data">
+                    <h3 class="visibility-area">0</h3>
+                    <p class="visibility-lable">
+                        visibility
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+    <script src="weather.js"></script>;
+</body>
+
+</html>
