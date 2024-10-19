@@ -1,6 +1,6 @@
 # Weather App
 
-A simple weather application built with HTML, CSS, and JavaScript that allows users to input a city name, fetch weather data from an API, and display the current weather information with clean and responsive styling.
+A  weather application built with HTML, CSS, and JavaScript that allows users to input a city name, fetch weather data from an API, and display the current weather information with clean and responsive styling.
 
 ## Features
 
